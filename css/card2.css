@@ -1,0 +1,195 @@
+@charset 'utf-8';
+/* 웹폰트 설정 */
+
+/* reset */
+body {
+	font: normal 16px 'Roboto', sans-serif;
+	line-height: 1.3;
+	color: #666666;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	background: #E5E5E5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+blockquote,
+address,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+caption {
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* 공통요소 */
+.card {
+	overflow: hidden;
+	background-color: #fff;
+	width: 280px;
+	border-radius: 8px;
+	margin: 30px auto;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, .1);
+}
+
+
+/* photo */
+.photo img {
+	vertical-align: top;
+}
+
+/* index */
+.index {
+	height: 59px;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.index__avatar {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	cursor: pointer;
+}
+.index__avatar h3 {
+	color: #000;
+	font-weight: 800;
+	margin-left: 2px;
+}
+.index__button {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.index__button button {
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+}
+.index__button button img {
+	vertical-align: middle;
+}
+.index__button span {
+	font-size: 12px;
+}
+
+/* card avata top */
+.avata-top {
+	margin: 10px;
+	margin-right: 21px;
+	height: 39px;
+	display: flex;
+	align-items: center;
+}
+.avata-top__profile {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.avata-top__descrtipt {
+	margin-left: 8px;
+	line-height: 14px;
+}
+.avata-top__descrtipt h3 {
+	font-size: 16px;
+	font-weight: 900;
+}
+.avata-top__descrtipt span {
+	font-size: 12px;
+	color: #828282;
+}
+.avata-top__more {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+
+/* article */
+.article {
+	margin: 15px;
+}
+.article__title {
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+}
+.article__by {
+	font-size: 14px;
+	font-weight: 400;
+}
+.article__content {
+	width: 249px;
+	font-size: 12px;
+	color: #333;
+	font-weight: 400;
+}
+
+/* title */
+.title {
+	margin: 10px;
+}
+.title__icon {
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	width: 49px;
+	height: 22px;
+	background-color: #27AE60;
+	color: #fff;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+}
+.title__title {
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	margin: 5px 0;
+}
+.title__by {
+	color: #4F4F4F;
+	font-size: 14px;
+}
+
